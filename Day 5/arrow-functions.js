@@ -34,8 +34,8 @@ function readLine() {
 
 // function()
 
-const modifyArray = (element) => (element %2 ===0) ? (element *2): (element *3)function modifyArray(nums) {
+function modifyArray(nums) {
     const modifiedArray = nums.map(element => (element % 2 === 0) ? (element * 2) : (element * 3));
-    
+
     return modifiedArray;
 }
