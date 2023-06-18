@@ -22,30 +22,13 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-// function getDayName(dateString) {
-//     let dayName;
-//     const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+// The days of the week are: "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+function getDayName(dateString) {
+    let dayName;
+    // Write your code here
     
-//     return dayName;
-// }
-
-// const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-// const date = new Date(dateString);
-// const q = date.getDate();
-// const m = date.getMonth() + 1;
-// const year = date.getFullYear();
-// const K = year % 100;
-// const J = Math.floor(year / 100);
-
-// function getDayName(dateString) {
-//     const whichDay = (q + Math.floor((13*(m+1))/5) + K + Math.floor(K/4) + Math.floor(J/4) - 2*J) % 7;
-    
-//     const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-
-//     const dayName = getDayName(dateString);
-//     console.log(dayName);
-// }
-  
+    return dayName;
+}
 
 
 function main() {
