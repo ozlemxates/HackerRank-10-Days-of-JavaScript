@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    height: 50px;
+    width: 120px;
+    background:linear-gradient(rgb(97, 97, 230), rgb(185, 100, 185));
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
