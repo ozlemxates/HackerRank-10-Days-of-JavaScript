@@ -36,11 +36,8 @@ btn9DOM.innerHTML = btn9
 let clickCount = 0; 
 
 function clickEvent() {
-  console.log(this.id);
-
   if (this.id === "btn5") {
     clickCount++; 
-
     if (clickCount === 1) {
       handleFirstClick();
     } else if (clickCount === 2) {
@@ -70,5 +67,3 @@ function handleSecondClick() {
     btn8DOM.innerHTML = btn8 - 2;
     btn9DOM.innerHTML = btn9 - 6; 
 }
-
-
