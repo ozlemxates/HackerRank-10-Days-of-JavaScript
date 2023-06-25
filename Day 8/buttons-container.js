@@ -2,12 +2,10 @@ let btn1 = document.querySelector("#btn1").innerHTML;
 let btn2 = document.querySelector("#btn2").innerHTML;
 let btn3 = document.querySelector("#btn3").innerHTML;
 let btn4 = document.querySelector("#btn4").innerHTML;
-let btn5 = document.querySelector("#btn5");
 let btn6 = document.querySelector("#btn6").innerHTML;
 let btn7 = document.querySelector("#btn7").innerHTML;
 let btn8 = document.querySelector("#btn8").innerHTML;
 let btn9 = document.querySelector("#btn9").innerHTML;
-console.log(btn2);
 
 btn5.addEventListener("click", clickEvent);
 
@@ -21,3 +19,5 @@ function clickEvent() {
   document.getElementById('btn8').innerHTML = btn9;
   document.getElementById('btn9').innerHTML = btn6;
 }
+
+
