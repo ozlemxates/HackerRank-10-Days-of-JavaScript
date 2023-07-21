@@ -1,23 +1,33 @@
-let btn1 = document.querySelector("#btn1").innerHTML;
-let btn2 = document.querySelector("#btn2").innerHTML;
-let btn3 = document.querySelector("#btn3").innerHTML;
-let btn4 = document.querySelector("#btn4").innerHTML;
-let btn6 = document.querySelector("#btn6").innerHTML;
-let btn7 = document.querySelector("#btn7").innerHTML;
-let btn8 = document.querySelector("#btn8").innerHTML;
-let btn9 = document.querySelector("#btn9").innerHTML;
+let btn1 = document.querySelector("#btn1");
+let btn2 = document.querySelector("#btn2");
+let btn3 = document.querySelector("#btn3");
+let btn4 = document.querySelector("#btn4");
+let btn5 = document.querySelector("#btn5");
+let btn6 = document.querySelector("#btn6");
+let btn7 = document.querySelector("#btn7");
+let btn8 = document.querySelector("#btn8");
+let btn9 = document.querySelector("#btn9");
 
 btn5.addEventListener("click", clickEvent);
 
 function clickEvent() {
-  document.getElementById('btn1').innerHTML = btn4;
-  document.getElementById('btn2').innerHTML = btn1;
-  document.getElementById('btn3').innerHTML = btn2;
-  document.getElementById('btn4').innerHTML = btn7;
-  document.getElementById('btn6').innerHTML = btn3;
-  document.getElementById('btn7').innerHTML = btn8;
-  document.getElementById('btn8').innerHTML = btn9;
-  document.getElementById('btn9').innerHTML = btn6;
+  if (this === btn5) {
+    let button1 = btn1.innerHTML;
+    let button2 = btn2.innerHTML;
+    let button3 = btn3.innerHTML;
+    let button4 = btn4.innerHTML;
+    let button6 = btn6.innerHTML;
+    let button7 = btn7.innerHTML;
+    let button8 = btn8.innerHTML;
+    let button9 = btn9.innerHTML;
+
+    btn1.innerHTML = button4;
+    btn2.innerHTML = button1;
+    btn3.innerHTML = button2;
+    btn4.innerHTML = button7;
+    btn6.innerHTML = button3;
+    btn7.innerHTML = button8;
+    btn8.innerHTML = button9;
+    btn9.innerHTML = button6;
+  }
 }
-
-
