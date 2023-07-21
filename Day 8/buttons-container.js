@@ -9,7 +9,6 @@ let btn8 = document.querySelector("#btn8");
 let btn9 = document.querySelector("#btn9");
 
 btn5.addEventListener("click", clickEvent);
-
 function clickEvent() {
   if (this === btn5) {
     let button1 = btn1.innerHTML;
